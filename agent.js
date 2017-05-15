@@ -1,7 +1,7 @@
 'use strict';
 
-const Auth = require('./lib/passport');
+const mount = require('./lib/passport');
 
 module.exports = agent => {
-  if (agent.config.auth.agent) Auth.init(agent);
+  if (agent.config.auth.agent) mount;
 };
