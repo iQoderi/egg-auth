@@ -1,5 +1,7 @@
 'use strict';
 
+const Auth = require('./lib/passport');
+
 module.exports = agent => {
-  console.log('agent.config.env =', agent.config.env);
+  if (agent.config.auth.agent) Auth.init(agent);
 };
