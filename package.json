@@ -1,9 +1,9 @@
 {
-  "name": "egg-bcrypt",
+  "name": "egg-auth",
   "version": "1.0.0",
-  "description": "egg.js brcrypt package",
+  "description": "egg.js auth package",
   "eggPlugin": {
-    "name": "bcrypt"
+    "name": "auth"
   },
   "keywords": [
     "egg",
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-bcrypt.git"
+    "url": "git+https://github.com/eggjs/egg-auth.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"

@@ -5,6 +5,10 @@
  * @member Config#bcrypt
  * @property {String} SOME_KEY - some description
  */
-exports.bcrypt = {
-
+exports.auth = {
+    password: {
+        saltTime: 10
+    },
+    app: true,
+    agent: false,
 };
