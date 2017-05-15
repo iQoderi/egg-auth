@@ -11,6 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "assert": "^1.4.1",
     "bcrypt": "^1.0.2",
     "bluebird": "^3.5.0",
     "koa-compose": "^4.0.0",

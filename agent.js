@@ -3,5 +3,5 @@
 const mount = require('./lib/passport');
 
 module.exports = agent => {
-  if (agent.config.auth.agent) mount;
+  if (agent.config.auth.agent) mount(agent);
 };
