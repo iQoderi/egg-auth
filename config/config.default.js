@@ -9,6 +9,9 @@ exports.auth = {
     password: {
         saltTime: 10
     },
+    session: {
+        secrets: 'session secret',
+    },
     app: true,
     agent: false,
 };
