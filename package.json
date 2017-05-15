@@ -1,7 +1,7 @@
 {
   "name": "egg-auth",
-  "version": "1.0.0",
-  "description": "egg.js auth package",
+  "version": "1.0.2",
+  "description": "egg.js auth 服务",
   "eggPlugin": {
     "name": "auth"
   },
