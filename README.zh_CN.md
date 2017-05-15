@@ -28,7 +28,7 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-bcrypt 版本 | egg 1.x
+egg-auth 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -47,9 +47,9 @@ egg-bcrypt 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.bcrypt = {
+exports.auth = {
   enable: true,
-  package: 'egg-bcrypt',
+  package: 'egg-auth', 
 };
 ```
 

@@ -27,16 +27,16 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-bcrypt --save
+$ npm i egg-auth --save
 ```
 
 ## Usage
 
 ```js
 // {app_root}/config/plugin.js
-exports.bcrypt = {
+exports.auth = {
   enable: true,
-  package: 'egg-bcrypt',
+  package: 'egg-auth',
 };
 ```
 
@@ -44,7 +44,8 @@ exports.bcrypt = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.bcrypt = {
+exports.auth = {
+    
 };
 ```
 
