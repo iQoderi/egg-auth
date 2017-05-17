@@ -1,6 +1,6 @@
 {
   "name": "egg-auth",
-  "version": "1.1.4",
+  "version": "1.2.1",
   "description": "egg.js auth 服务",
   "eggPlugin": {
     "name": "auth"
@@ -53,12 +53,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-auth.git"
+    "url": "git+https://github.com/iqoderi/egg-auth.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-auth#readme",
+  "homepage": "https://github.com/iqoderi/egg-auth#readme",
   "author": "qoderplus@gmail.com",
   "license": "MIT"
 }
